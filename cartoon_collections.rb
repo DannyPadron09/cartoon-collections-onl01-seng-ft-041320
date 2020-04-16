@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarf_names)# code an argument here
   i = 0
-  while i < array.length
+  while i < dwarf_names.length
     puts "#{i + 1}. #{dwarf_names[i]}"
     i += 1
   end
