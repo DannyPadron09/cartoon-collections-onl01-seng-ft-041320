@@ -7,7 +7,8 @@ def roll_call_dwarves(dwarf_names)# code an argument here
 end
 
 def summon_captain_planet(planeteer_calls)# code an argument here
-  
+  new_calls = []
+  new_calls << planeteer_calls.each {|calls| puts calls.capitalize}
 end
 
 def long_planeteer_calls# code an argument here
