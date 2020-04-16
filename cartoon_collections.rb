@@ -11,6 +11,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   calls = 1
   new_calls << planeteer_calls.each {|calls| puts calls.capitalize}
   calls += 1
+  new_calls
 end
 
 
