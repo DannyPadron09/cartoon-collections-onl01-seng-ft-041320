@@ -9,7 +9,9 @@ end
 def summon_captain_planet(planeteer_calls)# code an argument here
   new_calls = []
   new_calls << planeteer_calls.each {|calls| puts calls.capitalize}
+  return new_calls
 end
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
