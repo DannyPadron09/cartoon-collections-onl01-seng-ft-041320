@@ -1,8 +1,10 @@
 def roll_call_dwarves(dwarf_names)# code an argument here
-  listed_names = []
-  counter = 1
-  listed_names << dwarf_names.each { |name| "#{counter}. #{name}"}
-  counter += 1
+  if dwarf_names >= 1
+    listed_names = []
+    counter = 1
+    listed_names << dwarf_names.each { |name| "#{counter}. #{name}"}
+    counter += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
