@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarf_names)# code an argument here
-  if dwarf_names >= 1
+  if dwarf_names.length >= 1
     listed_names = []
     counter = 1
     listed_names << dwarf_names.each { |name| "#{counter}. #{name}"}
